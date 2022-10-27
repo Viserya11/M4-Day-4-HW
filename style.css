@@ -5,25 +5,20 @@ body {
     background-color: #f5f4f8;
 }
 
-nav {
+.navbar {
     display: flex;
     flex-direction: row;
-    margin: 0;
-    margin-bottom: -2.5vh;
-    justify-content: space-between;
-    height: 8vh;
-    background-color: rgb(255, 255, 255);
+    justify-content: flex-start, space-around;
     align-items: center;
-    color:#20173d;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.navigaton {
-    display: flex;
-    margin-right: 10px;
-    width: 60vw;
-    justify-content: space-around;
+    background-color: #f5f5f5;
+    height: 8vh;
+  }
+  .nav {
+    padding-left: 2vw;
+  }
+  .down {
+    height: 1.5vh;
+    align-content: center;
 }
 
 .welcome {
@@ -32,6 +27,10 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #7153fa;
+  }
+  
+  .purp {
+    color: #bba7ff;
   }
   
   .btnflex {
@@ -86,7 +85,8 @@ h1 {
 .randomtext {
     display: flex;
     flex-basis: 33.3%;
-}
+    justify-content: space-between;
+  }
 
 button {
     display: flex;
@@ -124,11 +124,16 @@ h2 {
     width: 15vw;
     background-color: #ffffff;
     text-align: justify;
-    padding: 0px;
     color: #62616f;
   }
   
   .picrowchild {
     margin: 10px;
     flex: 20%;
+  }
+
+  h3 {
+    color: #20173d;
+    padding-left: 10px;
+    margin-top: 0.5em;
   }
