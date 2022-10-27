@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: -2.5vh;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: rgb(165, 165, 165);
+    align-items: center;
+    color:#62616f;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navigaton {
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+}
+
+.welcome {
+    background-color: #7153fa;
+}
+
+h1 {
+    color: #e7e2fe;
+}
